@@ -3,7 +3,7 @@ import sql from 'mssql';
 const dbSettings = {
   user: 'SA',
   password: 'P@sswOrd123',
-  server: 'localhost',
+  server: 'mssql_server',
   database: 'SkyNurce',
   options: {
     encrypt: false, // Para desarrollo local
